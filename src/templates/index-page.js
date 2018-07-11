@@ -50,14 +50,13 @@ export const IndexPageTemplate = ({
                     <h3 className="has-text-weight-semibold is-size-2">
                       {heading}
                     </h3>
-                    <p>{description}</p>
+                    <p style={{fontFamily: 'Roboto', fontSize: '16px', lineHeight: '1.75'}}>{description}</p>
                   </div>
                   <div className="column is-1"/>
                   <div className="column is-4">
                     <img src={yoshieImg}/>
                   </div>
                 </div>
-                <Features gridItems={intro.blurbs} />
                 <div className="columns">
                   <div className="column is-7">
                     <h3 className="has-text-weight-semibold is-size-3">
