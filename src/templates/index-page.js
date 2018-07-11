@@ -5,6 +5,7 @@ import Testimonials from '../components/Testimonials'
 import Pricing from '../components/Pricing'
 import Slider from 'react-slick'
 import styled from 'styled-components'
+import yoshieImg from '../img/yoshie.jpg'
 
 const sliderSettings = {
   autoplay: true,
@@ -32,12 +33,13 @@ export const IndexPageTemplate = ({
       <Slider {...sliderSettings}>
         <SlideWrapper><SlideImage src={main.image1.image} /></SlideWrapper>
         <SlideWrapper><SlideImage src={main.image2.image} /></SlideWrapper>
+        <SlideWrapper><SlideImage src={main.image3.image} /></SlideWrapper>
       </Slider>
       <Overlay>
         BEST REAL ESTATE SERVING NORTH NJ
       </Overlay>
     </SliderContainer>
-    {/* <section className="section section--gradient">
+    <section className="section section--gradient">
       <div className="container">
         <div className="section">
           <div className="columns">
@@ -50,6 +52,10 @@ export const IndexPageTemplate = ({
                     </h3>
                     <p>{description}</p>
                   </div>
+                  <div className="column is-1"/>
+                  <div className="column is-4">
+                    <img src={yoshieImg}/>
+                  </div>
                 </div>
                 <Features gridItems={intro.blurbs} />
                 <div className="columns">
@@ -58,39 +64,6 @@ export const IndexPageTemplate = ({
                       {main.heading}
                     </h3>
                     <p>{main.description}</p>
-                  </div>
-                </div>
-                <div className="tile is-ancestor">
-                  <div className="tile is-vertical">
-                    <div className="tile">
-                      <div className="tile is-parent is-vertical">
-                        <article className="tile is-child">
-                          <img
-                            style={{ borderRadius: '5px' }}
-                            src={main.image1.image}
-                            alt={main.image1.alt}
-                          />
-                        </article>
-                      </div>
-                      <div className="tile is-parent">
-                        <article className="tile is-child">
-                          <img
-                            style={{ borderRadius: '5px' }}
-                            src={main.image2.image}
-                            alt={main.image2.alt}
-                          />
-                        </article>
-                      </div>
-                    </div>
-                    <div className="tile is-parent">
-                      <article className="tile is-child">
-                        <img
-                          style={{ borderRadius: '5px' }}
-                          src={main.image3.image}
-                          alt={main.image3.alt}
-                        />
-                      </article>
-                    </div>
                   </div>
                 </div>
                 <Testimonials testimonials={testimonials} />
@@ -102,13 +75,12 @@ export const IndexPageTemplate = ({
                   {pricing.heading}
                 </h2>
                 <p className="is-size-5">{pricing.description}</p>
-                <Pricing data={pricing.plans} />
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section> */}
+    </section>
   </div>
 )
 
