@@ -55,10 +55,10 @@ main:
     optimal for the plants, farmers and the local environment.
   image1:
     alt: A close-up of a paper filter filled with ground coffee
-    image: /img/dan-gold-220226-unsplash.jpeg
+    image: /img/naomi-hebert-188443-unsplash-1-.jpg
   image2:
     alt: A green cup of a coffee on a wooden table
-    image: /img/christopher-harris-55545-unsplash.jpeg
+    image: /img/residence_living.jpg
   image3:
     alt: Coffee beans
     image: /img/img_0396.jpg
