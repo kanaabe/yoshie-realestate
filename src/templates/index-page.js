@@ -3,7 +3,18 @@ import PropTypes from 'prop-types'
 import Features from '../components/Features'
 import Testimonials from '../components/Testimonials'
 import Pricing from '../components/Pricing'
-import Carousel from 'nuka-carousel'
+import Slider from 'react-slick'
+import styled from 'styled-components'
+
+const sliderSettings = {
+  autoplay: true,
+  dots: true,
+  lazyLoad: true,
+  infinite: true,
+  speed: 500,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+}
 
 export const IndexPageTemplate = ({
   image,
@@ -17,18 +28,21 @@ export const IndexPageTemplate = ({
   pricing,
 }) => (
   <div>
-    <Carousel autoplay wrapAround heightMode="first">
-      <img src={main.image1.image} />
-      <img src={main.image2.image} />
-    </Carousel>
-
-    <section className="section section--gradient">
+    <SliderContainer>
+      <Slider {...sliderSettings}>
+        <SlideWrapper><SlideImage src={main.image1.image} /></SlideWrapper>
+        <SlideWrapper><SlideImage src={main.image2.image} /></SlideWrapper>
+      </Slider>
+      <Overlay>
+        BEST REAL ESTATE SERVING NORTH NJ
+      </Overlay>
+    </SliderContainer>
+    {/* <section className="section section--gradient">
       <div className="container">
         <div className="section">
           <div className="columns">
             <div className="column is-10 is-offset-1">
               <div className="content">
-                
                 <div className="columns">
                   <div className="column is-7">
                     <h3 className="has-text-weight-semibold is-size-2">
@@ -94,7 +108,7 @@ export const IndexPageTemplate = ({
           </div>
         </div>
       </div>
-    </section>
+    </section> */}
   </div>
 )
 
@@ -200,4 +214,36 @@ export const indexPageQuery = graphql`
       }
     }
   }
+`
+
+const SlideImage = styled.div`
+  background-image: url("${props => props.src}");
+  background-size: cover;
+  height: 100%;
+  background-position: 50% 50%;
+`
+
+const SlideWrapper = styled.div`
+  width: 100vw;
+  height: 400px;
+`
+
+const SliderContainer = styled.div`
+  position: relative;
+  width: 100vw;
+  height: 400px;
+`
+
+const Overlay = styled.div`
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  font-family: 'Josefin Sans';
+  font-size: 50px;
+  color: white;
+  text-shadow: 0px 0px 10px rgba(150, 150, 150, 1);
 `
