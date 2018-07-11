@@ -2,12 +2,17 @@
 templateKey: index-page
 title: Our Coffee
 image: /img/screen-shot-2018-07-11-at-4.39.35-pm.png
-heading: What we offer
+heading: What I offer
 description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  Enthusiastically architect magnetic convergence via viral ideas.
+  Synergistically deliver adaptive solutions whereas prospective products.
+  Dramatically morph one-to-one networks through innovative results. Completely
+  synergize extensible expertise vis-a-vis technically sound innovation.
+  Globally predominate next-generation best practices with maintainable
+  meta-services.  Objectively reinvent 2.0 methods of empowerment without
+  professional systems. Rapidiously restore open-source internal or "organic"
+  sources through parallel testing procedures. Assertively negotiate progressive
+  customer service and client-centered e-commerce.
 intro:
   blurbs:
     - image: /img/coffee.png
