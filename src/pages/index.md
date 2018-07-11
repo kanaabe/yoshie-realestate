@@ -1,8 +1,7 @@
 ---
-templateKey: 'index-page'
-path: /
+templateKey: index-page
 title: Our Coffee
-image: /img/jumbotron.jpg
+image: /img/luxurious-living-room-in-new-home-000071369805_large2.jpg
 heading: What we offer
 description: >-
   Kaldi is the ultimate spot for coffee lovers who want to learn about their
@@ -53,7 +52,7 @@ main:
     optimal for the plants, farmers and the local environment.
   image1:
     alt: A close-up of a paper filter filled with ground coffee
-    image: /img/products-grid3.jpg
+    image: /img/luxurious-living-room-in-new-home-000071369805_large2.jpg
   image2:
     alt: A green cup of a coffee on a wooden table
     image: /img/products-grid2.jpg
@@ -99,3 +98,4 @@ pricing:
       plan: Custom
       price: '??'
 ---
+
