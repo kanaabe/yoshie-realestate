@@ -28,8 +28,8 @@ export const IndexPageTemplate = ({
     <SliderContainer>
       <Slider {...sliderSettings}>
         {
-          carousel.map(image => (
-            <SlideWrapper><SlideImage src={image}/></SlideWrapper>
+          carousel.map(item => (
+            <SlideWrapper><SlideImage src={item.image}/></SlideWrapper>
           ))
         }
       </Slider>
@@ -93,7 +93,6 @@ IndexPageTemplate.propTypes = {
 }
 
 const IndexPage = ({ data }) => {
-  console.log(data)
   const { frontmatter } = data.markdownRemark
 
   return (
