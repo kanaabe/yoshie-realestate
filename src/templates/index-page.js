@@ -2,10 +2,8 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Features from '../components/Features'
 import Testimonials from '../components/Testimonials'
-import Pricing from '../components/Pricing'
 import Slider from 'react-slick'
 import styled from 'styled-components'
-import yoshieImg from '../img/yoshie.jpg'
 import { Paragraph } from '../components/Common'
 
 const sliderSettings = {
@@ -19,25 +17,24 @@ const sliderSettings = {
 }
 
 export const IndexPageTemplate = ({
+  carousel,
   image,
-  title,
   heading,
   description,
-  intro,
-  main,
+  featured,
   testimonials,
-  fullImage,
-  pricing,
 }) => (
   <div>
     <SliderContainer>
       <Slider {...sliderSettings}>
-        <SlideWrapper><SlideImage src={main.image1.image} /></SlideWrapper>
-        <SlideWrapper><SlideImage src={main.image2.image} /></SlideWrapper>
-        <SlideWrapper><SlideImage src={main.image3.image} /></SlideWrapper>
+        {
+          carousel.map(image => (
+            <SlideWrapper><SlideImage src={image}/></SlideWrapper>
+          ))
+        }
       </Slider>
       <Overlay>
-        BEST REAL ESTATE SERVING NORTH NJ
+        REAL ESTATE SERVING NORTH NJ
       </Overlay>
     </SliderContainer>
     <section className="section section--gradient">
@@ -55,22 +52,22 @@ export const IndexPageTemplate = ({
                   </div>
                   <div className="column is-1"/>
                   <div className="column is-4">
-                    <img src={yoshieImg}/>
+                    <img src={image}/>
                   </div>
                 </div>
                 <div className="columns">
                   <div className="column is-7">
                     <h3 className="has-text-weight-semibold is-size-3">
-                      {main.heading}
+                      {testimonials.heading}
                     </h3>
-                    <Paragraph>{main.description}</Paragraph>
+                    <Paragraph>{testimonials.description}</Paragraph>
                   </div>
                 </div>
-                <Testimonials testimonials={testimonials} />
+                <Testimonials testimonials={testimonials.quotes} />
                 <h3 className="has-text-weight-semibold is-size-3">
                   Featured Listings
                 </h3>
-                <Features gridItems={intro.blurbs} />
+                <Features gridItems={featured.blurbs} />
               </div>
             </div>
           </div>
@@ -81,43 +78,32 @@ export const IndexPageTemplate = ({
 )
 
 IndexPageTemplate.propTypes = {
+  carousel: PropTypes.array,
   image: PropTypes.string,
-  title: PropTypes.string,
   heading: PropTypes.string,
   description: PropTypes.string,
-  intro: PropTypes.shape({
+  featured: PropTypes.shape({
     blurbs: PropTypes.array,
   }),
-  main: PropTypes.shape({
+  testimonials: PropTypes.shape({
     heading: PropTypes.string,
     description: PropTypes.string,
-    image1: PropTypes.object,
-    image2: PropTypes.object,
-    image3: PropTypes.object,
-  }),
-  testimonials: PropTypes.array,
-  fullImage: PropTypes.string,
-  pricing: PropTypes.shape({
-    heading: PropTypes.string,
-    description: PropTypes.string,
-    plans: PropTypes.array,
+    quotes: PropTypes.array
   }),
 }
 
 const IndexPage = ({ data }) => {
+  console.log(data)
   const { frontmatter } = data.markdownRemark
 
   return (
     <IndexPageTemplate
+      carousel={frontmatter.carousel}
       image={frontmatter.image}
-      title={frontmatter.title}
       heading={frontmatter.heading}
       description={frontmatter.description}
-      intro={frontmatter.intro}
-      main={frontmatter.main}
+      featured={frontmatter.featured}
       testimonials={frontmatter.testimonials}
-      fullImage={frontmatter.full_image}
-      pricing={frontmatter.pricing}
     />
   )
 }
@@ -136,11 +122,13 @@ export const indexPageQuery = graphql`
   query IndexPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       frontmatter {
-        title
         image
         heading
         description
-        intro {
+        carousel {
+          image
+        }
+        featured {
           blurbs {
             image
             text
@@ -148,35 +136,12 @@ export const indexPageQuery = graphql`
           heading
           description
         }
-        main {
-          heading
-          description
-          image1 {
-            alt
-            image
-          }
-          image2 {
-            alt
-            image
-          }
-          image3 {
-            alt
-            image
-          }
-        }
         testimonials {
-          author
-          quote
-        }
-        full_image
-        pricing {
           heading
           description
-          plans {
-            description
-            items
-            plan
-            price
+          quotes {
+            author
+            quote
           }
         }
       }

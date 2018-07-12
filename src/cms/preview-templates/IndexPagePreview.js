@@ -3,44 +3,26 @@ import PropTypes from 'prop-types'
 import { IndexPageTemplate } from '../../templates/index-page'
 
 const IndexPagePreview = ({ entry, getAsset }) => {
-  const entryBlurbs = entry.getIn(['data', 'intro', 'blurbs'])
+  const entryCarousels = entry.getIn(['data', 'carousel'])
+  const carousels = entryCarousels ? entryCarousels.toJS() : []
+
+  const entryBlurbs = entry.getIn(['data', 'featured', 'blurbs'])
   const blurbs = entryBlurbs ? entryBlurbs.toJS() : []
 
-  const entryTestimonials = entry.getIn(['data', 'testimonials'])
-  const testimonials = entryTestimonials ? entryTestimonials.toJS() : []
-
-  const entryPricingPlans = entry.getIn(['data', 'pricing', 'plans'])
-  const pricingPlans = entryPricingPlans ? entryPricingPlans.toJS() : []
+  const entryQuotes = entry.getIn(['data', 'testimonials', 'quotes'])
+  const quotes = entryQuotes ? entryQuotes.toJS() : []
 
   return (
     <IndexPageTemplate
+      carousel={[...carousels]}
       image={entry.getIn(['data', 'image'])}
-      title={entry.getIn(['data', 'title'])}
       heading={entry.getIn(['data', 'heading'])}
       description={entry.getIn(['data', 'description'])}
-      intro={{ blurbs }}
-      main={{
-        heading: entry.getIn(['data', 'main', 'heading']),
-        description: entry.getIn(['data', 'main', 'description']),
-        image1: {
-          image: getAsset(entry.getIn(['data', 'main', 'image1', 'image'])),
-          alt: entry.getIn(['data', 'main', 'image1', 'alt']),
-        },
-        image2: {
-          image: getAsset(entry.getIn(['data', 'main', 'image2', 'image'])),
-          alt: entry.getIn(['data', 'main', 'image2', 'alt']),
-        },
-        image3: {
-          image: getAsset(entry.getIn(['data', 'main', 'image3', 'image'])),
-          alt: entry.getIn(['data', 'main', 'image3', 'alt']),
-        },
-      }}
-      fullImage={entry.getIn(['data', 'full_image'])}
-      testimonials={testimonials}
-      pricing={{
-        heading: entry.getIn(['data', 'pricing', 'heading']),
-        description: entry.getIn(['data', 'pricing', 'description']),
-        plans: pricingPlans,
+      featured={{ blurbs }}
+      testimonials={{
+        quotes,
+        heading: entry.getIn(['data', 'testimonials', 'heading']),
+        description: entry.getIn(['data', 'testimonials', 'description'])
       }}
     />
   )
