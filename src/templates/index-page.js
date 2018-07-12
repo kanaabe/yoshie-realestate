@@ -6,6 +6,7 @@ import Pricing from '../components/Pricing'
 import Slider from 'react-slick'
 import styled from 'styled-components'
 import yoshieImg from '../img/yoshie.jpg'
+import { Paragraph } from '../components/Common'
 
 const sliderSettings = {
   autoplay: true,
@@ -62,18 +63,14 @@ export const IndexPageTemplate = ({
                     <h3 className="has-text-weight-semibold is-size-3">
                       {main.heading}
                     </h3>
-                    <p>{main.description}</p>
+                    <Paragraph>{main.description}</Paragraph>
                   </div>
                 </div>
                 <Testimonials testimonials={testimonials} />
-                <div
-                  className="full-width-image-container"
-                  style={{ backgroundImage: `url(${fullImage})` }}
-                />
-                <h2 className="has-text-weight-semibold is-size-2">
-                  {pricing.heading}
-                </h2>
-                <p className="is-size-5">{pricing.description}</p>
+                <h3 className="has-text-weight-semibold is-size-3">
+                  Featured Listings
+                </h3>
+                <Features gridItems={intro.blurbs} />
               </div>
             </div>
           </div>
