@@ -3,34 +3,56 @@ import Link from 'gatsby-link'
 import logo from '../img/group26.png'
 import styled from 'styled-components'
 
-const Navbar = () => (
-  <nav className="navbar is-transparent">
-    <div className="container">
-      <div className="navbar-brand">
-        <Link to="/" className="navbar-item">
-          <figure className="image">
-            <Name>YOSHIE ABE</Name>
-          </figure>
-        </Link>
-      </div>
-      <div className="navbar-start">
-        <StyledNavLink className="navbar-item" to="/about">
-          About
-        </StyledNavLink>
-        <StyledNavLink className="navbar-item" to="/blog">
-          Blog
-        </StyledNavLink>
-        <StyledNavA className="navbar-item" href="mailto:yoshabe926@gmail.com">Email Me</StyledNavA>
-        <StyledNavA className="navbar-item" href="tel:1-201-826-8721">(201)-826-8721</StyledNavA>
-      </div>
-      <a className="navbar-end" href="http://www.grouptwentysix.com/">
-        <img src={logo} alt="Group 26" style={{ width: '175px', height: '72px' }} />
-      </a>
-    </div>
-  </nav>
-)
+export default class Navbar extends React.Component {
+  state = {
+    hamburgerIsOpen: false
+  }
 
-export default Navbar
+  toggleHamburger = () => {
+    const { hamburgerIsOpen } = this.state
+    this.setState({
+      hamburgerIsOpen: !hamburgerIsOpen
+    })
+  }
+
+  render() {
+    const { hamburgerIsOpen } = this.state
+    return (
+      <nav className="navbar is-transparent is-fixed-top">
+        <div className="container">
+          <div className="navbar-brand">
+            <Link to="/" className="navbar-item">
+              <figure className="image">
+                <Name>YOSHIE ABE</Name>
+              </figure>
+            </Link>
+            <span className={`navbar-burger burger ${hamburgerIsOpen ? 'is-active' : ''}`} dataTarget="navMenu" onClick={this.toggleHamburger}>
+              <span></span>
+              <span></span>
+              <span></span>
+            </span>
+          </div>
+          <div id="navMenu" className={`navbar-menu ${hamburgerIsOpen ? 'is-active' : ''}`}>
+            <div className="navbar-start">
+              <StyledNavLink className="navbar-item" to="/about">
+                About
+              </StyledNavLink>
+              <StyledNavLink className="navbar-item" to="/blog">
+                Blog
+              </StyledNavLink>
+              <StyledNavA className="navbar-item" href="mailto:yoshabe926@gmail.com">Email Me</StyledNavA>
+              <StyledNavA small className="navbar-item" href="tel:1-201-826-8721">Cell: (201)-826-8721</StyledNavA>
+              <StyledNavA small className="navbar-item" href="tel:1-201-969-2626">Office: (201)-969-2626</StyledNavA>
+            </div>
+            <a className="navbar-end" href="http://www.grouptwentysix.com/">
+              <img src={logo} alt="Group 26" style={{ width: '175px', height: '72px' }} />
+            </a>
+          </div>
+        </div>
+      </nav>
+    )
+  }
+}
 
 const Name = styled.div`
   font-family: 'Josefin Sans';
