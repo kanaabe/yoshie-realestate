@@ -132,8 +132,6 @@ export const indexPageQuery = graphql`
             image
             text
           }
-          heading
-          description
         }
         testimonials {
           heading
