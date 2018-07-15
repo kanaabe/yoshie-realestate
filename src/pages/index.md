@@ -7,15 +7,12 @@ carousel:
 image: /img/screen-shot-2018-07-12-at-12.10.42-pm.png
 heading: What I Offer
 description: >-
-  Enthusiastically architect magnetic convergence via viral ideas.
-  Synergistically deliver adaptive solutions whereas prospective products.
-  Dramatically morph one-to-one networks through innovative results. Completely
-  synergize extensible expertise vis-a-vis technically sound innovation.
-  Globally predominate next-generation best practices with maintainable
-  meta-services.  Objectively reinvent 2.0 methods of empowerment without
-  professional systems. Rapidiously restore open-source internal or "organic"
-  sources through parallel testing procedures. Assertively negotiate progressive
-  customer service and client-centered e-commerce.
+  Whether you are looking to sell, rent, buy or invest, I will provide the
+  absolute best service for you and your needs. My passion is to help people by
+  listening to their needs and providing lots of options to work with. I come
+  from a background in Interior Design and Construction Planning. These
+  additional skills give me an edge that has helped my clients time and time
+  again. I can make your real estate experience easy and painless!
 featured:
   blurbs:
     - image: /img/luxurious-living-room-in-new-home-000071369805_large2.jpg
