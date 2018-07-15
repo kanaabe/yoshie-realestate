@@ -35,15 +35,13 @@ testimonials:
   heading: What People Say About Me
   description: >-
     Working with people is my passion. I will listen, advocate, and search to
-    find your perfect home or sell your current one.
+    find your perfect home or sell your current one. These are some things
+    people have said about me:
   quotes:
-    - author: Elisabeth Kaurismäki
+    - author: Kana Abe
       quote: >-
-        The first time I tried Kaldi’s coffee, I couldn’t even believe that was
-        the same thing I’ve been drinking every morning.
-    - author: Philipp Trommler
-      quote: >-
-        Kaldi is the place to go if you want the best quality coffee. I love
-        their stance on empowering farmers and transparency.
+        Yoshie was an incredibly diligent and helpful agent. She went out of her
+        way to get a selection of great apartments for me with all of the
+        amenities I wanted. Thank you, Yoshie!
 ---
 
