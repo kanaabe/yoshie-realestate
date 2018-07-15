@@ -38,10 +38,15 @@ testimonials:
     find your perfect home or sell your current one. These are some things
     people have said about me:
   quotes:
-    - author: Kana Abe
+    - author: Karen T.
       quote: >-
-        Yoshie was an incredibly diligent and helpful agent. She went out of her
-        way to get a selection of great apartments for me with all of the
-        amenities I wanted. Thank you, Yoshie!
+        Yoshie was so great to work with! My boyfriend and I were looking to
+        move into our first apartment together in Hoboken and she helped us each
+        step of the way, and found us an amazing apartment. She was able to work
+        around our busy work schedules and really took into account what kind of
+        place we were looking for. When it came time to submitting the
+        application and moving in, she took the time out to check in with us and
+        make sure all was going well. Overall we had a great and positive
+        experience with Yoshie.
 ---
 
