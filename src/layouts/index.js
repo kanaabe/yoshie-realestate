@@ -16,7 +16,7 @@ const TemplateWrapper = ({ children }) => (
       <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
     </Helmet>
     <Navbar />
-    <div style={{marginTop: "72px"}}>{children()}</div>
+    <MainContent>{children()}</MainContent>
     <Footer/>
   </MainDiv>
 )
@@ -27,7 +27,13 @@ TemplateWrapper.propTypes = {
 
 export default TemplateWrapper
 
-
 const MainDiv = styled.div`
   font-family: 'Josefin Sans';
+`
+
+const MainContent = styled.div`
+  margin-top: 72px;
+  @media only screen and (max-width: 600px) {
+    margin-top: 52px;
+  }
 `

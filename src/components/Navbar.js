@@ -26,6 +26,9 @@ export default class Navbar extends React.Component {
                 <Name>YOSHIE ABE</Name>
               </figure>
             </Link>
+            <MobileLogo href="http://www.grouptwentysix.com/">
+              <img src={logo} alt="Group 26" style={{ width: '100px'}} />
+            </MobileLogo>
             <span className={`navbar-burger burger ${hamburgerIsOpen ? 'is-active' : ''}`} dataTarget="navMenu" onClick={this.toggleHamburger}>
               <span></span>
               <span></span>
@@ -51,11 +54,22 @@ export default class Navbar extends React.Component {
   }
 }
 
+const MobileLogo = styled.a`
+  display: none;
+  @media only screen and (max-width: 600px) {
+    display: block;
+    margin-top: 5px;
+  }
+`
+
 const Name = styled.div`
   font-family: 'Josefin Sans';
   font-size: 30px;
   font-weight: 300;
   color: black;
+  @media only screen and (max-width: 600px) {
+    font-size: 18px;
+  }
 `
 
 const StyledNavA = styled.a`

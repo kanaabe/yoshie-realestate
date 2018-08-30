@@ -15,7 +15,7 @@ description: >-
   from a background in Interior Design and Construction Planning. These
   additional skills give me an edge that has helped my clients time and time
   again. I can make your real estate experience easy and painless!
-about: >-
+about: |
   Happiness is …….going home.
 
 
