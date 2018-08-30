@@ -4,6 +4,8 @@ carousel:
   - image: /img/naomi-hebert-188443-unsplash-1-.jpg
   - image: /img/img_0396.jpg
   - image: /img/residence_living.jpg
+  - image: /img/screen-shot-2018-07-11-at-4.39.35-pm.png
+  - image: /img/img_9453.jpg
 image: /img/screen-shot-2018-07-12-at-12.10.42-pm.png
 heading: What I Offer
 description: >-
