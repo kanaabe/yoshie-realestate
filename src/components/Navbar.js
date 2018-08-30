@@ -34,9 +34,6 @@ export default class Navbar extends React.Component {
           </div>
           <div id="navMenu" className={`navbar-menu ${hamburgerIsOpen ? 'is-active' : ''}`}>
             <div className="navbar-start">
-              <StyledNavLink className="navbar-item" to="/about">
-                About
-              </StyledNavLink>
               <StyledNavLink className="navbar-item" to="/blog">
                 Blog
               </StyledNavLink>

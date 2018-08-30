@@ -7,15 +7,16 @@ const FeatureGrid = ({ gridItems }) => (
   <div className="columns is-multiline">
     {gridItems.map(item => (
       <div key={item.image} className="column is-6">
-        <ImageWrapper>
-          <Image src={item.image}/>
-        </ImageWrapper>
+        <a href={item.link}>
+          <ImageWrapper>
+            <Image src={item.image}/>
+          </ImageWrapper>
+        </a>
         <Paragraph>{item.text}</Paragraph>
       </div>
     ))}
   </div>
 )
-
 
 const Image = styled.div`
   background-image: url("${props => props.src}");
@@ -27,6 +28,10 @@ const Image = styled.div`
 const ImageWrapper = styled.div`
   width: 100%;
   height: 300px;
+  &:hover {
+    opacity: 0.5;
+    background-color: black;
+  }
 `
 
 FeatureGrid.propTypes = {
@@ -34,6 +39,7 @@ FeatureGrid.propTypes = {
     PropTypes.shape({
       image: PropTypes.string,
       text: PropTypes.string,
+      link: PropTypes.string
     })
   ),
 }

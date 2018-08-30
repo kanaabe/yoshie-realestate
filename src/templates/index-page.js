@@ -21,6 +21,7 @@ export const IndexPageTemplate = ({
   image,
   heading,
   description,
+  about,
   featured,
   testimonials,
 }) => (
@@ -50,21 +51,29 @@ export const IndexPageTemplate = ({
                     </h3>
                     <p style={{fontFamily: 'Roboto', fontSize: '16px', lineHeight: '1.75'}}>{description}</p>
                   </div>
-                  <div className="column is-1"/>
-                  <div className="column is-4">
+                  <div className="column is-2"/>
+                  <div className="column is-3">
                     <img src={image}/>
                   </div>
                 </div>
                 <div className="columns">
-                  <div className="column is-7">
-                    <h3 className="has-text-weight-semibold is-size-3">
+                  <div className="column">
+                    <h3 style={{marginTop: '60px'}} className="has-text-weight-semibold is-size-3">
+                      About Me
+                    </h3>
+                    <p style={{fontFamily: 'Roboto', fontSize: '16px', lineHeight: '1.75'}}>{about}</p>
+                  </div>
+                </div>
+                <div className="columns">
+                  <div className="column">
+                    <h3 style={{marginTop: '60px'}} className="has-text-weight-semibold is-size-3">
                       {testimonials.heading}
                     </h3>
                     <Paragraph>{testimonials.description}</Paragraph>
                   </div>
                 </div>
                 <Testimonials testimonials={testimonials.quotes} />
-                <h3 className="has-text-weight-semibold is-size-3">
+                <h3 style={{marginTop: '60px'}} className="has-text-weight-semibold is-size-3">
                   Featured Listings
                 </h3>
                 <Features gridItems={featured.blurbs} />
@@ -82,6 +91,7 @@ IndexPageTemplate.propTypes = {
   image: PropTypes.string,
   heading: PropTypes.string,
   description: PropTypes.string,
+  about: PropTypes.string,
   featured: PropTypes.shape({
     blurbs: PropTypes.array,
   }),
@@ -101,6 +111,7 @@ const IndexPage = ({ data }) => {
       image={frontmatter.image}
       heading={frontmatter.heading}
       description={frontmatter.description}
+      about={frontmatter.about}
       featured={frontmatter.featured}
       testimonials={frontmatter.testimonials}
     />
@@ -124,6 +135,7 @@ export const indexPageQuery = graphql`
         image
         heading
         description
+        about
         carousel {
           image
         }
@@ -131,6 +143,7 @@ export const indexPageQuery = graphql`
           blurbs {
             image
             text
+            link
           }
         }
         testimonials {

@@ -12,6 +12,7 @@ const Footer = () => (
           </FooterHeaders>
           <p>
             <Name>Yoshie Abe</Name><br />
+            <i className="fa fa-map-marker" /> 234 Franklin Abe, Suite 26, Nutley, NJ 07110 <br />
             <i className="fa fa-map-marker" /> 115 River Rd. Suite 103 Edgewater, NJ 07020 <br />
             <a href="tel:1-201-826-8721"><i className="fa fa-phone" /> Phone: (201)-826-8721</a> <br />
             <a href="tel:1-201-969-2626"><i className="fa fa-phone" /> Office: (201)-969-2626</a> <br />
@@ -39,6 +40,9 @@ export default Footer
 const StyledFooter = styled.footer`
   font-family: 'Roboto';
   background-color: gainsboro;
+  a, i {
+    margin-bottom: 15px;
+  }
 `
 
 const FooterHeaders = styled.div`
@@ -53,6 +57,8 @@ const SocialIcon = styled.a`
   margin-right: 15px;
 `
 const Name = styled.span`
+  display: inline-block;
   font-size: 18px;
   font-weight: bold;
+  padding-bottom: 15px;
 `
