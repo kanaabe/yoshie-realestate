@@ -6,7 +6,7 @@ carousel:
   - image: /img/img_0396.jpg
   - image: /img/screen-shot-2018-07-11-at-4.39.35-pm.png
   - image: /img/img_9453.jpg
-image: /img/screen-shot-2018-07-12-at-12.10.42-pm.png
+image: /img/img_8858-2.jpg
 heading: What I Offer
 description: >-
   Whether you are looking to sell, rent, buy or invest, I will provide the
