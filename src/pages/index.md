@@ -11,32 +11,23 @@ heading: What I Offer
 description: >-
   Whether you are looking to sell, rent, buy or invest, I will provide the
   absolute best service for you and your needs. My passion is to help people by
-  listening to their needs and providing lots of options to work with. I come
-  from a background in Interior Design and Construction Planning. These
-  additional skills give me an edge that has helped my clients time and time
-  again. I can make your real estate experience easy and painless!
-about: |
+  listening to their needs and providing lots of options to work with. I can
+  make your real estate experience easy and painless!
+about: |-
   Happiness is …….going home.
-
-
 
   Yoshie is a realtor for Group Twenty Six based in North Jersey who has found
   her success in Real Estate. "I love making a difference in people's lives and
   to be part of their history when they start a new chapter in life."
 
-   
-  Born and raised in Japan, Yoshie graduated Fashion Institute of Technology in
+  Yoshie graduated Fashion Institute of Technology in
   New York majoring Interior design.  She managed store design and construction
   for major retailers such as Tommy Hilfiger and Tumi.  She executed numerous
   projects internationally and learned how to be a meticulous facilitator.
 
-
-  * _I will take the time to know you._
-
-  * _I will provide the most detailed market analysis and intelligent advice._
-
-  * _I will manage all aspects of your business transactions._
-
+  * I will take the time to know you.
+  * I will provide the most detailed market analysis and intelligent advice.
+  * I will manage all aspects of your business transactions.
 
   Yoshie enjoys art, museums, nature, house plants, furniture restoration,
   hiking, biking, running and motorcycles.
