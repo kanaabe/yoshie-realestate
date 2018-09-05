@@ -9,16 +9,14 @@ carousel:
 image: /img/img_8858-2.jpg
 heading: What I Offer
 description: >-
-  Whether you are looking to sell, rent, buy or invest, I will provide the
-  absolute best service for you and your needs. My passion is to help people by
-  listening to their needs and providing lots of options to work with. I can
-  make your real estate experience easy and painless.  My three promises.  I
-  will take the time to know you.  I will provide the most detailed market
-  analysis and intelligent advice.  I will manage all aspects of your business
-  transactions. 
+  Happiness is …….going home.  Whether you are looking to sell, rent, buy or
+  invest, I will provide the absolute best service for you and your needs. My
+  passion is to help people by listening to their needs and providing lots of
+  options to work with. I can make your real estate experience easy and
+  painless.  My three promises.  I will take the time to know you.  I will
+  provide the most detailed market analysis and intelligent advice.  I will
+  manage all aspects of your business transactions. 
 about: |-
-  Happiness is …….going home.
-
   Yoshie is a realtor for Group Twenty Six based in North Jersey who has found
   her success in Real Estate. "I love making a difference in people's lives and
   to be part of their history when they start a new chapter in life."
