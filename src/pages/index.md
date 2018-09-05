@@ -12,7 +12,10 @@ description: >-
   Whether you are looking to sell, rent, buy or invest, I will provide the
   absolute best service for you and your needs. My passion is to help people by
   listening to their needs and providing lots of options to work with. I can
-  make your real estate experience easy and painless!
+  make your real estate experience easy and painless.  My three promises.  I
+  will take the time to know you.  I will provide the most detailed market
+  analysis and intelligent advice.  I will manage all aspects of your business
+  transactions. 
 about: |-
   Happiness is …….going home.
 
@@ -24,10 +27,6 @@ about: |-
   New York majoring Interior design.  She managed store design and construction
   for major retailers such as Tommy Hilfiger and Tumi.  She executed numerous
   projects internationally and learned how to be a meticulous facilitator.
-
-  * I will take the time to know you.
-  * I will provide the most detailed market analysis and intelligent advice.
-  * I will manage all aspects of your business transactions.
 
   Yoshie enjoys art, museums, nature, house plants, furniture restoration,
   hiking, biking, running and motorcycles.
