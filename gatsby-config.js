@@ -1,6 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: 'Yoshie Abe | Real Estate',
+    description: "Yoshie Abe is a top real estate agent in New Jersey specializing in residential and commercial real estate for buyers, sellers and investors. Yoshie is an agent with Group26 Realty.",
+    keywords: "new jersey real estate, real estate, nj homes, nj, yoshie abe, real estate agent, north new jersey"
   },
   plugins: [
     'gatsby-plugin-react-helmet',

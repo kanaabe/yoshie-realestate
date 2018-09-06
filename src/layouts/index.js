@@ -9,7 +9,7 @@ import './all.sass'
 
 const TemplateWrapper = ({ children }) => (
   <MainDiv>
-    <Helmet title="Yoshie Abe | Real Estate" keywords="new jersey real estate, real estate, nj homes, nj, yoshie abe, real estate agent, north new jersey">
+    <Helmet>
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous" />
       <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Roboto" rel="stylesheet"/>
       <link rel="stylesheet" type="text/css" charset="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" /> 
