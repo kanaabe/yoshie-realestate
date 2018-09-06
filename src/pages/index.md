@@ -32,7 +32,7 @@ featured:
   blurbs:
     - image: /img/_dsc6902.jpg
       link: 'https://reg.loandepot.com/196-GarsideAve-WayneNJ-07470-YoshieAbe'
-      text: >-
+      text: |-
         196 Garside Ave Wayne, NJ  Passaic County 4br 3 baths  $449,000
 
         Unique bi-level home in the Valley section of Wayne, offering 4 bedrooms
@@ -48,7 +48,7 @@ featured:
         layers for unique look. Close to everything.
     - image: /img/_dsc8914.jpg
       link: 'https://reg.loandepot.com/45-GarrabrantAve-Bloomfield-YoshieAbe'
-      text: >-
+      text: |-
         45 Garrabrant Ave Bloomfield NJ, Essex County 3br 1bath  $350,000
 
         Custom built Cape Cod Colonial nested on a quiet tree lined street in

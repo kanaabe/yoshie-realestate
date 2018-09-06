@@ -2,19 +2,30 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
 import { Paragraph } from './Common'
+import { HTMLContent } from './Content'
+import remark from 'remark'
+import remarkHtml from 'remark-html'
 
 const FeatureGrid = ({ gridItems }) => (
   <div className="columns is-multiline">
-    {gridItems.map(item => (
-      <div key={item.image} className="column is-6">
-        <a href={item.link}>
-          <ImageWrapper>
-            <Image src={item.image}/>
-          </ImageWrapper>
-        </a>
-        <Paragraph>{item.text}</Paragraph>
-      </div>
-    ))}
+    {gridItems.map(item => {
+      const textHTML = remark()
+        .use(remarkHtml)
+        .processSync(item.text).toString()
+
+      return (
+        <div key={item.image} className="column is-6">
+          <a href={item.link}>
+            <ImageWrapper>
+              <Image src={item.image}/>
+            </ImageWrapper>
+          </a>
+          <Paragraph>
+            <HTMLContent content={textHTML}/>
+          </Paragraph>
+        </div>
+      )
+    })}
   </div>
 )
 

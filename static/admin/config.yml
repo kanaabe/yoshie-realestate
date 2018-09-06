@@ -32,5 +32,5 @@ collections:
           - {label: Heading, name: heading, widget: string}
           - {label: Description, name: description, widget: string}
           - {label: About, name: about, widget: "markdown"}
-          - {label: Featured, name: featured, widget: object, fields: [{label: Blurbs, name: blurbs, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Text, name: text, widget: text}, {label: Link, name: link, widget: text}]}]}
+          - {label: Featured, name: featured, widget: object, fields: [{label: Blurbs, name: blurbs, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Text, name: text, widget: markdown}, {label: Link, name: link, widget: text}]}]}
           - {label: Testimonials, name: testimonials, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: string}, {label: Quotes, name: quotes, widget: list, fields: [{label: Quote, name: quote, widget: string}, {label: Author, name: author, widget: string}]}]}
