@@ -6,5 +6,7 @@ export const Paragraph = styled.p`
   h2 {
     font-family: "Josefin Sans";
     margin-top: 0px !important;
+    text-align: center;
+    font-size: 1.4em !important;
   }
 `;
