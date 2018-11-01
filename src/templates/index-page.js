@@ -39,7 +39,7 @@ export const IndexPageTemplate = ({
         <Slider {...sliderSettings}>
           {
             carousel.map(item => (
-              <SlideWrapper><SlideImage src={item.image}/></SlideWrapper>
+              <SlideWrapper><SlideImage src={item.image} /></SlideWrapper>
             ))
           }
         </Slider>
@@ -58,33 +58,33 @@ export const IndexPageTemplate = ({
                       <h3 className="has-text-weight-semibold is-size-2">
                         {heading}
                       </h3>
-                      <p style={{fontFamily: 'Roboto', fontSize: '16px', lineHeight: '1.75'}}>{description}</p>
+                      <p style={{ fontFamily: 'Roboto', fontSize: '16px', lineHeight: '1.75' }}>{description}</p>
                     </div>
-                    <div className="column is-2"/>
+                    <div className="column is-2" />
                     <div className="column is-3">
-                      <img src={image}/>
+                      <img src={image} />
                     </div>
                   </div>
                   <div className="columns">
                     <div className="column">
-                      <h3 style={{marginTop: '60px'}} className="has-text-weight-semibold is-size-3">
+                      <h3 style={{ marginTop: '60px' }} className="has-text-weight-semibold is-size-3">
                         About Me
                       </h3>
                       <About>
-                        <HTMLContent content={aboutHTML}/>
+                        <HTMLContent content={aboutHTML} />
                       </About>
                     </div>
                   </div>
                   <div className="columns">
                     <div className="column">
-                      <h3 style={{marginTop: '60px'}} className="has-text-weight-semibold is-size-3">
+                      <h3 style={{ marginTop: '60px' }} className="has-text-weight-semibold is-size-3">
                         {testimonials.heading}
                       </h3>
                       <Paragraph>{testimonials.description}</Paragraph>
                     </div>
                   </div>
                   <Testimonials testimonials={testimonials.quotes} />
-                  <h3 style={{marginTop: '60px'}} className="has-text-weight-semibold is-size-3">
+                  <h3 style={{ marginTop: '60px' }} className="has-text-weight-semibold is-size-3">
                     Featured Listings
                   </h3>
                   <Features gridItems={featured.blurbs} />
@@ -156,6 +156,7 @@ export const indexPageQuery = graphql`
             image
             text
             link
+            status
           }
         }
         testimonials {

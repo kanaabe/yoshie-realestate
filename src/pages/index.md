@@ -15,7 +15,7 @@ description: >-
   options to work with. I can make your real estate experience easy and
   painless.  My three promises.  I will take the time to know you.  I will
   provide the most detailed market analysis and intelligent advice.  I will
-  manage all aspects of your business transactions. 
+  manage all aspects of your business transactions.
 about: |-
   Yoshie is a realtor for Group Twenty Six based in North Jersey who has found
   her success in Real Estate. "I love making a difference in people's lives and
@@ -31,12 +31,11 @@ about: |-
 featured:
   blurbs:
     - image: /img/_dsc6902.jpg
-      link: 'https://reg.loandepot.com/196-GarsideAve-WayneNJ-07470-YoshieAbe'
+      link: ''
+      status: SOLD
       text: |-
-        ## **196 Garside Ave Wayne, NJ Passaic County**
-
+        ## **196 Garside Ave Wayne, NJ**
         ## **4br 3 baths**
-
         ## **$449,000 (SOLD)**
 
         Unique bi-level home in the Valley section of Wayne, offering 4 bedrooms
@@ -68,4 +67,3 @@ testimonials:
         make sure all was going well. Overall we had a great and positive
         experience with Yoshie.
 ---
-
