@@ -51,6 +51,20 @@ featured:
         storage area in utility room. Sliding doors to large patio and entry to
         the two car garage. Beautiful, private, fenced in backyard with multiple
         layers for unique look. Close to everything.
+    - image: /img/img_3080.jpg
+      status: LEASED
+      text: >-
+        ## **Montclair, NJ**
+
+
+        ## **2br, 1bath, brand new kitchen**
+
+
+        Leased for a young professional couple from Astoria, NY within a week
+        from the day of market.
+    - {}
+    - {}
+    - {}
 testimonials:
   heading: What People Say About Me
   description: >-
