@@ -102,6 +102,16 @@ featured:
 
 
         Buyer's agent
+    - image: /img/isq1quyb3am5fs0000000000.jpg
+      status: SOLD
+      text: |-
+        ## 500 Central Ave Union City
+
+        ## 2br 1 bath with New York City view from balcony
+
+        ## $335,000 (SOLD)
+
+        Buyer's Agent.
 testimonials:
   heading: What People Say About Me
   description: >-
