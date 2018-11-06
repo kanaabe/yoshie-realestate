@@ -60,10 +60,11 @@ featured:
         ## **2br, 1bath, brand new kitchen**
 
 
+        ## **$2,300**
 
 
-        Leased for a young professional couple from NY within a week from the
-        day of market.
+        Leased for a young professional couple from NY within a week from day of
+        the market.
     - image: /img/img_2524.jpg
       status: LEASED
       text: |-
@@ -77,7 +78,7 @@ featured:
     - image: /img/img_3486.png
       status: SOLD
       text: >-
-        ## Retail
+        ## **Retail**
 
 
         ## **509 Pompton Avenue**
