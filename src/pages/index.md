@@ -67,23 +67,23 @@ featured:
     - image: /img/img_2524.jpg
       status: LEASED
       text: |-
-        # **Upper Montclair**
+        ## **Upper Montclair**
 
-        # **2br, 1bath and front porch**
+        ## **2br, 1bath and front porch**
 
-        # $2,250
+        ## **$2,250**
 
         Worked as a listing agent.  Leased in 2 weeks.
     - image: /img/img_3486.png
       status: SOLD
       text: >-
-        # Retail
+        ## Retail
 
 
-        # **509 Pompton Avenue**
+        ## **509 Pompton Avenue**
 
 
-        # **Cedar Grove, NJ 07009**
+        ## **Cedar Grove, NJ 07009**
 
 
         Freestanding 2,300 sf Retail store 1,100 Warehouse/Garages, 2,300 sf
