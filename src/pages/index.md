@@ -60,6 +60,8 @@ featured:
         ## **2br, 1bath, brand new kitchen**
 
 
+
+
         Leased for a young professional couple from Astoria, NY within a week
         from the day of market.
     - {}
