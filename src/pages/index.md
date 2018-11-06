@@ -73,7 +73,7 @@ featured:
 
         ## **$2,250**
 
-        Worked as a listing agent.  Leased in 2 weeks.
+        Listing agent.  Leased in 2 weeks.
     - image: /img/img_3486.png
       status: SOLD
       text: >-
@@ -86,9 +86,21 @@ featured:
         ## **Cedar Grove, NJ 07009**
 
 
-        Freestanding 2,300 sf Retail store 1,100 Warehouse/Garages, 2,300 sf
-        Storage in basement.  .1552 Acres, Lot 40 x 169.
-    - {}
+        Buyer's Agent. ** **Freestanding 2,300 sf Retail store 1,100
+        Warehouse/Garages, 2,300 sf Storage in basement.  .1552 Acres, Lot 40 x
+        169.
+    - image: /img/isijqc0j40o0za0000000000.jpg
+      status: SOLD
+      text: |-
+        ## **330 E Lincoln Ave Roselle Park, NJ**
+
+        ## **3br, 1bath and sun porch**
+
+        ## **$278,000 (SOLD)**
+
+
+
+        Buyer's agent
 testimonials:
   heading: What People Say About Me
   description: >-
