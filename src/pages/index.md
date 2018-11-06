@@ -81,13 +81,12 @@ featured:
         ## **Retail**
 
 
-        ## **509 Pompton Avenue**
+        ## **509 Pompton Ave Cedar Grove, NJ **
 
 
-        ## **Cedar Grove, NJ 07009**
 
 
-        Buyer's Agent. ** **Freestanding 2,300 sf Retail store 1,100
+        Buyer's Agent.  Freestanding 2,300 sf Retail store 1,100
         Warehouse/Garages, 2,300 sf Storage in basement.  .1552 Acres, Lot 40 x
         169.
     - image: /img/isijqc0j40o0za0000000000.jpg
@@ -105,11 +104,11 @@ featured:
     - image: /img/isq1quyb3am5fs0000000000.jpg
       status: SOLD
       text: |-
-        ## 500 Central Ave Union City
+        ## **500 Central Ave Union City**
 
-        ## 2br 1 bath with New York City view from balcony
+        ## **2br 1 bath, NYC view from balcony**
 
-        ## $335,000 (SOLD)
+        ## **$335,000 (SOLD)**
 
         Buyer's Agent.
 testimonials:
