@@ -33,23 +33,37 @@ featured:
     - image: /img/_dsc6902.jpg
       link: ''
       status: SOLD
-      text: |-
+      text: >-
         ## **196 Garside Ave Wayne, NJ**
+
 
         ## **4br 3 baths**
 
+
         ## **$440,000 (SOLD)**
 
-        Unique bi-level home in the Valley section of Wayne, offering 4 bedrooms
+
+        Listing Agent. ** **Unique bi-level home in the Valley section of Wayne,
+        offering 4 bedrooms
+
         and 3 full baths. Extra wide entry with marble floors and two coat
+
         closets. First floor offers master suite with walk in closet and full
+
         bath, two additional bedrooms and one more full bath. Large living room,
+
         spacious dining room with wood beam ceilings and beautiful kitchen with
+
         center island and laundry. Massive deck off of kitchen for endless
+
         outdoor entering. Ground floor offers a good size bedroom, full bath,
+
         massive family room with wet bar, wood burning fireplace and large
+
         storage area in utility room. Sliding doors to large patio and entry to
+
         the two car garage. Beautiful, private, fenced in backyard with multiple
+
         layers for unique look. Close to everything.
     - image: /img/img_3080.jpg
       status: LEASED
@@ -84,6 +98,7 @@ featured:
         ## **509 Pompton Ave Cedar Grove, NJ **
 
 
+        ## **$500's (SOLD)**
 
 
         Buyer's Agent.  Freestanding 2,300 sf Retail store 1,100
