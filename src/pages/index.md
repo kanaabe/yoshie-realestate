@@ -35,8 +35,10 @@ featured:
       status: SOLD
       text: |-
         ## **196 Garside Ave Wayne, NJ**
+
         ## **4br 3 baths**
-        ## **$449,000 (SOLD)**
+
+        ## **$440,000 (SOLD)**
 
         Unique bi-level home in the Valley section of Wayne, offering 4 bedrooms
         and 3 full baths. Extra wide entry with marble floors and two coat
@@ -67,3 +69,4 @@ testimonials:
         make sure all was going well. Overall we had a great and positive
         experience with Yoshie.
 ---
+
