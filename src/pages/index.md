@@ -62,9 +62,18 @@ featured:
 
 
 
-        Leased for a young professional couple from Astoria, NY within a week
-        from the day of market.
-    - {}
+        Leased for a young professional couple from NY within a week from the
+        day of market.
+    - image: /img/img_2524.jpg
+      status: LEASED
+      text: |-
+        # **Upper Montclair**
+
+        # **2br, 1bath and front porch**
+
+        # $2,250
+
+        Worked as a listing agent.  Leased in 2 weeks.
     - {}
     - {}
 testimonials:
