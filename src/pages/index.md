@@ -74,7 +74,20 @@ featured:
         # $2,250
 
         Worked as a listing agent.  Leased in 2 weeks.
-    - {}
+    - image: /img/img_3486.png
+      status: SOLD
+      text: >-
+        # Retail
+
+
+        # **509 Pompton Avenue**
+
+
+        # **Cedar Grove, NJ 07009**
+
+
+        Freestanding 2,300 sf Retail store 1,100 Warehouse/Garages, 2,300 sf
+        Storage in basement.  .1552 Acres, Lot 40 x 169.
     - {}
 testimonials:
   heading: What People Say About Me
