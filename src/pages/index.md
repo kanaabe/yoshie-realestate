@@ -16,18 +16,56 @@ description: >-
   painless.  My three promises.  I will take the time to know you.  I will
   provide the most detailed market analysis and intelligent advice.  I will
   manage all aspects of your business transactions.
-about: |-
-  Yoshie is a realtor for Group Twenty Six based in North Jersey who has found
-  her success in Real Estate. "I love making a difference in people's lives and
-  to be part of their history when they start a new chapter in life."
+about: >-
+  _Yoshie is a realtor for Group Twenty Six based in North Jersey who has found
+  her success in Real Estate.  She has completed buying, selling, and renting
+  both homes and commercial properties in Essex, Bergen, Passaic, Hudson, and
+  Union counties. Her vast knowledge of all regions in North Jersey is a
+  must-have skill to serve each individual lifestyle. Yoshie's clients have
+  repeatedly remarked on her expert advice, honesty and attention to detail.
+  Thanks to her previous career in design, Yoshie is also available as an
+  interior design consultant, construction consultant, and staging designer. _
 
-  Yoshie graduated Fashion Institute of Technology in
-  New York majoring Interior design.  She managed store design and construction
-  for major retailers such as Tommy Hilfiger and Tumi.  She executed numerous
-  projects internationally and learned how to be a meticulous facilitator.
 
-  Yoshie enjoys art, museums, nature, house plants, furniture restoration,
-  hiking, biking, running and motorcycles.
+  _Yoshie graduated from the Fashion Institute of Technology in New York with a
+  degree in Interior Design. Prior to her Real Estate career, Yoshie managed the
+  design and construction for major retailers such as Tommy Hilfiger, Footlocker
+  and Tumi. She has managed the design and construction of over 1,000 stores
+  domestically and internationally._
+
+
+  _Yoshie enjoys art, museums, nature, house plants, furniture restoration,
+  hiking, biking, running and motorcycles._
+
+
+
+
+  > "I love making a difference in people's lives and to be part of their
+  decision making when they start a new chapter in life. Through my experience
+  in design and construction, I discovered my real passion -- working with
+  people's property and design needs. I can sell your home or discover your next
+  dream home. I value the best customer service and will take the time to
+  understand and act on your preferences. For example, those with changes in
+  lifestyle such as remote work or frequent traveling might mean prioritizing
+  amenities over location. I will work with you to understand your top needs and
+  find them for you. My clients consistently note my attentiveness and
+  flexibility. 
+
+  >
+
+  > I can also show you great value rentals and well-located commercial
+  properties. I've found many rentals for my clients and am always considerate
+  of busy schedules and specific needs such as parking and storage space, or
+  public transportation. I've found great locations for commercial properties
+  and designed more retails stores than I can count! 
+
+  >
+
+  > Finally, I can even help you stage your home, fix design problems in your
+  home or design your dream kitchen! If you feel as though your home "isn't
+  working for your needs", sometimes all it takes is a better layout and design.
+  I can make your home work for you while increasing the value of your home. If
+  it truly won't fit your needs, I will find someone who will love your home.”
 featured:
   blurbs:
     - image: /img/_dsc6902.jpg
