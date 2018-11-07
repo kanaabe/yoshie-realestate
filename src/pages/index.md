@@ -9,7 +9,7 @@ carousel:
 image: /img/img_8858-2.jpg
 heading: What I Offer
 description: >-
-  Happiness is …….going home.  Whether you are looking to sell, rent, buy or
+  Happiness is...going home.  Whether you are looking to sell, rent, buy or
   invest, I will provide the absolute best service for you and your needs. My
   passion is to help people by listening to their needs and providing lots of
   options to work with. I can make your real estate experience easy and
@@ -17,25 +17,25 @@ description: >-
   provide the most detailed market analysis and intelligent advice.  I will
   manage all aspects of your business transactions.
 about: >-
-  _Yoshie is a realtor for Group Twenty Six based in North Jersey who has found
+  Yoshie is a realtor for Group Twenty Six based in North Jersey who has found
   her success in Real Estate.  She has completed buying, selling, and renting
   both homes and commercial properties in Essex, Bergen, Passaic, Hudson, and
   Union counties. Her vast knowledge of all regions in North Jersey is a
   must-have skill to serve each individual lifestyle. Yoshie's clients have
   repeatedly remarked on her expert advice, honesty and attention to detail.
   Thanks to her previous career in design, Yoshie is also available as an
-  interior design consultant, construction consultant, and staging designer. _
+  interior design consultant, construction consultant, and staging designer.
 
 
-  _Yoshie graduated from the Fashion Institute of Technology in New York with a
+  Yoshie graduated from the Fashion Institute of Technology in New York with a
   degree in Interior Design. Prior to her Real Estate career, Yoshie managed the
   design and construction for major retailers such as Tommy Hilfiger, Footlocker
   and Tumi. She has managed the design and construction of over 1,000 stores
-  domestically and internationally._
+  domestically and internationally.
 
 
-  _Yoshie enjoys art, museums, nature, house plants, furniture restoration,
-  hiking, biking, running and motorcycles._
+  Yoshie enjoys art, museums, nature, house plants, furniture restoration,
+  hiking, biking, running and motorcycles.
 
 
 
@@ -49,7 +49,7 @@ about: >-
   lifestyle such as remote work or frequent traveling might mean prioritizing
   amenities over location. I will work with you to understand your top needs and
   find them for you. My clients consistently note my attentiveness and
-  flexibility. 
+  flexibility.
 
   >
 
@@ -57,7 +57,7 @@ about: >-
   properties. I've found many rentals for my clients and am always considerate
   of busy schedules and specific needs such as parking and storage space, or
   public transportation. I've found great locations for commercial properties
-  and designed more retails stores than I can count! 
+  and designed more retails stores than I can count!
 
   >
 
@@ -182,4 +182,3 @@ testimonials:
         make sure all was going well. Overall we had a great and positive
         experience with Yoshie.
 ---
-
