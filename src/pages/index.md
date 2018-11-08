@@ -27,17 +27,15 @@ about: >-
   interior design consultant, construction consultant, and staging designer.
 
 
-  Yoshie graduated from the Fashion Institute of Technology in New York with a
-  degree in Interior Design. Prior to her Real Estate career, Yoshie managed the
-  design and construction for major retailers such as Tommy Hilfiger, Footlocker
-  and Tumi. She has managed the design and construction of over 1,000 stores
-  domestically and internationally.
+  Yoshie studied at Tama Art University in Tokyo, graduated from the Fashion
+  Institute of Technology in New York with a degree in Interior Design.  Prior
+  to her Real Estate career, Yoshie managed the design and construction for
+  major retailers such as Tommy Hilfiger, Footlocker and Tumi.  She achieved to
+  open over 1,000 stores domestically and internationally.
 
 
   Yoshie enjoys art, museums, nature, house plants, furniture restoration,
   hiking, biking, running and motorcycles.
-
-
 
 
   > "I love making a difference in people's lives and to be part of their
@@ -182,3 +180,4 @@ testimonials:
         make sure all was going well. Overall we had a great and positive
         experience with Yoshie.
 ---
+
