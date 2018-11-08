@@ -70,13 +70,15 @@ export default class Navbar extends React.Component {
                 Office: (201)-969-2626
               </StyledNavA>
             </div>
-            <a className="navbar-end" href="http://www.grouptwentysix.com/">
-              <img
-                src={logo}
-                alt="Group 26"
-                style={{ width: "250px", height: "72px" }}
-              />
-            </a>
+            {!hamburgerIsOpen && (
+              <a className="navbar-end" href="http://www.grouptwentysix.com/">
+                <img
+                  src={logo}
+                  alt="Group 26"
+                  style={{ width: "250px", height: "72px" }}
+                />
+              </a>
+            )}
           </div>
         </div>
       </nav>
