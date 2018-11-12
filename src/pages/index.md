@@ -179,5 +179,16 @@ testimonials:
         application and moving in, she took the time out to check in with us and
         make sure all was going well. Overall we had a great and positive
         experience with Yoshie.
+    - author: Tomo O.
+      quote: >-
+        Yoshie was very personable in her service delivery. Obviously she helped
+        us sell our house, but that was not only service she provided.  She went
+        extra miles to decorate our charming house to attract the wider range of
+        audiences using her great interior design skills. She also assisted us
+        find all   necessary service providers for any miscellaneous repairs.
+        Some of them were time sensitive for the closing, and Yoshie pushed all
+        service providers to complete their jobs in time.  We could depend on
+        her on any aspects of tasks from inception to compl. I recommend Yoshie
+        to all people in needs of “personal” real estate services.
 ---
 
