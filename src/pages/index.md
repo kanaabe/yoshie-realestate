@@ -66,6 +66,20 @@ about: >-
   it truly won't fit your needs, I will find someone who will love your home.”
 featured:
   blurbs:
+    - image: /img/img_4415.jpg
+      status: UNDER CONTRACT
+      text: |-
+        ## Multi-Family
+
+        ## Newark, Ironbound
+
+        Buyer's Agent
+    - image: /img/messages-image-3308491552-.jpeg
+      status: UNDER CONTRACT
+      text: |-
+        ## **Condo, Union City**
+
+        Buyer's Agent
     - image: /img/_dsc6902.jpg
       link: ''
       status: SOLD
@@ -162,14 +176,6 @@ featured:
         ## **$335,000 (SOLD)**
 
         Buyer's Agent.
-    - image: /img/img_4415.jpg
-      status: UNDER CONTRACT
-      text: |-
-        ## Multi-Family
-
-        ## Newark, Ironbound
-
-        Buyer's Agent
 testimonials:
   heading: What People Say About Me
   description: >-
