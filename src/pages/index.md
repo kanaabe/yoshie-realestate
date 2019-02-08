@@ -162,6 +162,14 @@ featured:
         ## **$335,000 (SOLD)**
 
         Buyer's Agent.
+    - image: /img/img_4415.jpg
+      status: UNDER CONTRACT
+      text: |-
+        ## Multi-Family
+
+        ## Newark, Ironbound
+
+        Buyer's Agent
 testimonials:
   heading: What People Say About Me
   description: >-
