@@ -79,17 +79,20 @@ export class ListingTemplate extends React.Component {
               ))}
               <p>{description}</p>
             </div>
-            <div className="column is-5 columns">
-              {additionalImages.map((image, i) => {
-                return (
-                  <ImageThumbnail
-                    className="column"
-                    key={image.image}
-                    src={image.image}
-                    onClick={this.handleClick.bind(this, i)}
-                  />
-                )
-              })}
+            <div className="column is-5">
+              <div className="columns is-multiline">
+                {additionalImages.map((image, i) => {
+                  return (
+                    <div className="column is-half">
+                      <ImageThumbnail
+                        key={image.image}
+                        src={image.image}
+                        onClick={this.handleClick.bind(this, i)}
+                      />
+                    </div>
+                  )
+                })}
+              </div>
             </div>
           </div>
         </div>
@@ -188,6 +191,6 @@ const ImageThumbnail = styled.div`
   background-image: url("${props => props.src}");
   background-size: cover;
   background-position: 50% 50%;
-  margin: 15px;
   cursor: pointer;
+  padding: 10px;
 `
