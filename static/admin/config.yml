@@ -93,3 +93,36 @@ collections:
                   },
                 ],
             }
+  - name: listing
+    label: Listing
+    folder: src/pages/listing
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {
+          label: Template Key,
+          name: templateKey,
+          widget: hidden,
+          default: listing,
+        }
+      - { label: Title, name: title, widget: text }
+      - { label: Subtitle, name: subtitle, widget: markdown }
+      - { label: Background Image, name: background_image, widget: image }
+      - { label: Address, name: address, widget: map }
+      - { label: Price, name: price, widget: text }
+      - {
+          label: Specifications,
+          name: specifications,
+          widget: list,
+          fields: [
+            { label: Label, name: label, widget: string },
+            { label: Value, name: value, widget: string }
+          ]
+      }
+      - { label: Description, name: description, widget: text }
+      - {
+          label: Additional Images,
+          name: additional_images,
+          widget: list,
+          fields: [{ label: Image, name: image, widget: image }],
+        }
