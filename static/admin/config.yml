@@ -107,8 +107,8 @@ collections:
         }
       - { label: Title, name: title, widget: string }
       - { label: Subtitle, name: subtitle, widget: string }
-      - { label: Callout, name: callout, widget: markdown }
-      - { label: Background Image, name: background_image, widget: image }
+      - { label: Callout, name: callout, widget: text }
+      - { label: Main Image, name: mainImage, widget: image }
       - { label: Price, name: price, widget: text }
       - {
           label: Specifications,
@@ -122,7 +122,7 @@ collections:
       - { label: Description, name: description, widget: text }
       - {
           label: Additional Images,
-          name: additional_images,
+          name: additionalImages,
           widget: list,
           fields: [{ label: Image, name: image, widget: image }],
         }

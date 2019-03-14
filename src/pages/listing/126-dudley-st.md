@@ -3,15 +3,15 @@ templateKey: listing
 title: 126 Dudley St
 subtitle: 'Jersey City, NJ 07302'
 callout: |-
-  ## Open House
-
+  Open House
   Sunday March 17, 2019
-
   1:00PM - 3:00PM
-background_image: /img/126_dudley_st_apt_415-jersey_city_1552515884_0.jpg
+mainImage: /img/126_dudley_st_apt_415-jersey_city_1552515884_0.jpg
 price: '$1,150,000'
 specifications:
   - label: BATH
+    value: '2'
+  - label: BED
     value: '2'
 description: >-
   Rare opportunity to own a corner penthouse with views of NYC, the Hudson
@@ -36,7 +36,7 @@ description: >-
   and PATH train. Restaurants, boardwalk, playgrounds and parks are an easy
   stroll away. Blocks away from PS16, Waterfront Montessori, St Peter's Prep and
   River School.
-additional_images:
+additionalImages:
+  - image: /img/126_dudley_st_apt_415-jersey_city_1552515884_0.jpg
   - image: /img/_dsc6902.jpg
 ---
-

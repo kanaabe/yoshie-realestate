@@ -1,13 +1,13 @@
-import React from "react";
-import PropTypes from "prop-types";
-import Features from "../components/Features";
-import Testimonials from "../components/Testimonials";
-import Slider from "react-slick";
-import styled from "styled-components";
-import { Paragraph } from "../components/Common";
-import { HTMLContent } from "../components/Content";
-import remark from "remark";
-import remarkHtml from "remark-html";
+import React from "react"
+import PropTypes from "prop-types"
+import Features from "../components/Features"
+import Testimonials from "../components/Testimonials"
+import Slider from "react-slick"
+import styled from "styled-components"
+import { Paragraph } from "../components/Common"
+import { HTMLContent } from "../components/Content"
+import remark from "remark"
+import remarkHtml from "remark-html"
 
 const sliderSettings = {
   autoplay: true,
@@ -17,7 +17,7 @@ const sliderSettings = {
   speed: 500,
   slidesToShow: 1,
   slidesToScroll: 1
-};
+}
 
 export const IndexPageTemplate = ({
   carousel,
@@ -31,7 +31,7 @@ export const IndexPageTemplate = ({
   const aboutHTML = remark()
     .use(remarkHtml)
     .processSync(about)
-    .toString();
+    .toString()
 
   return (
     <div>
@@ -110,8 +110,8 @@ export const IndexPageTemplate = ({
         </div>
       </section>
     </div>
-  );
-};
+  )
+}
 
 IndexPageTemplate.propTypes = {
   carousel: PropTypes.array,
@@ -127,10 +127,10 @@ IndexPageTemplate.propTypes = {
     description: PropTypes.string,
     quotes: PropTypes.array
   })
-};
+}
 
 const IndexPage = ({ data }) => {
-  const { frontmatter } = data.markdownRemark;
+  const { frontmatter } = data.markdownRemark
 
   return (
     <IndexPageTemplate
@@ -142,8 +142,8 @@ const IndexPage = ({ data }) => {
       featured={frontmatter.featured}
       testimonials={frontmatter.testimonials}
     />
-  );
-};
+  )
+}
 
 IndexPage.propTypes = {
   data: PropTypes.shape({
@@ -151,9 +151,9 @@ IndexPage.propTypes = {
       frontmatter: PropTypes.object
     })
   })
-};
+}
 
-export default IndexPage;
+export default IndexPage
 
 export const indexPageQuery = graphql`
   query IndexPage($id: String!) {
@@ -185,31 +185,31 @@ export const indexPageQuery = graphql`
       }
     }
   }
-`;
+`
 
 const About = styled.div`
   font-family: Roboto;
   font-size: 16px;
   line-height: 1.75;
-`;
+`
 
 const SlideImage = styled.div`
   background-image: url("${props => props.src}");
   background-size: cover;
   height: 100%;
   background-position: 50% 50%;
-`;
+`
 
 const SlideWrapper = styled.div`
   width: 100vw;
   height: 400px;
-`;
+`
 
 const SliderContainer = styled.div`
   position: relative;
   width: 100vw;
   height: 400px;
-`;
+`
 
 const Overlay = styled.div`
   position: absolute;
@@ -224,4 +224,4 @@ const Overlay = styled.div`
   color: white;
   text-shadow: 0px 0px 10px rgba(150, 150, 150, 1);
   padding: 30px;
-`;
+`
