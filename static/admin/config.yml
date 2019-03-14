@@ -109,7 +109,6 @@ collections:
       - { label: Subtitle, name: subtitle, widget: string }
       - { label: Callout, name: callout, widget: markdown }
       - { label: Background Image, name: background_image, widget: image }
-      - { label: Address, name: address, widget: map }
       - { label: Price, name: price, widget: text }
       - {
           label: Specifications,
