@@ -39,4 +39,7 @@ description: >-
 additionalImages:
   - image: /img/126_dudley_st_apt_415-jersey_city_1552515884_0.jpg
   - image: /img/_dsc6902.jpg
+  - image: /img/dan-gold-220226-unsplash.jpeg
+  - image: /img/chemex.jpg
 ---
+
