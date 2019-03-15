@@ -1,18 +1,23 @@
-import React from "react";
-import PropTypes from "prop-types";
-import Helmet from "react-helmet";
-import styled from "styled-components";
+import React from "react"
+import PropTypes from "prop-types"
+import Helmet from "react-helmet"
+import styled from "styled-components"
 
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
-import "./all.sass";
+import Navbar from "../components/Navbar"
+import Footer from "../components/Footer"
+import "./all.sass"
 
 const TemplateWrapper = ({ children }) => (
   <MainDiv>
     <Helmet>
       <title>Yoshie Abe | Real Estate</title>
+      <meta property="og:title" content="Yoshie Abe | Real Estate" />
       <meta
         name="description"
+        content="Yoshie Abe is a top real estate agent in New Jersey specializing in residential and commercial real estate for buyers, sellers and investors. Yoshie is an agent with Group26 Realty."
+      />
+      <meta
+        property="og:description"
         content="Yoshie Abe is a top real estate agent in New Jersey specializing in residential and commercial real estate for buyers, sellers and investors. Yoshie is an agent with Group26 Realty."
       />
       <meta
@@ -63,21 +68,21 @@ const TemplateWrapper = ({ children }) => (
     <MainContent>{children()}</MainContent>
     <Footer />
   </MainDiv>
-);
+)
 
 TemplateWrapper.propTypes = {
   children: PropTypes.func
-};
+}
 
-export default TemplateWrapper;
+export default TemplateWrapper
 
 const MainDiv = styled.div`
   font-family: "Josefin Sans";
-`;
+`
 
 const MainContent = styled.div`
   margin-top: 72px;
   @media only screen and (max-width: 600px) {
     margin-top: 52px;
   }
-`;
+`

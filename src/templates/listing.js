@@ -1,4 +1,4 @@
-import React, { createRef } from "react"
+import React from "react"
 import PropTypes from "prop-types"
 import Helmet from "react-helmet"
 import Slider from "react-slick"
@@ -48,12 +48,6 @@ export class ListingTemplate extends React.Component {
       additionalImages,
       mainImage
     } = this.props
-
-    console.log(
-      ...Object.assign({}, sliderSettings, {
-        initialSlide: this.state.initialSlide
-      })
-    )
 
     return (
       <section className="section">
@@ -130,7 +124,21 @@ const Listing = ({ data }) => {
 
   return (
     <ListingTemplate
-      helmet={<Helmet title={`${post.frontmatter.title} | Listing`} />}
+      helmet={
+        <Helmet
+          description={post.frontmatter.description}
+          title={`${post.frontmatter.title} | Listing`}
+        >
+          <meta
+            property="og:title"
+            content={`${post.frontmatter.title} | Listing`}
+          />
+          <meta
+            property="og:image"
+            content={post.frontmatter.mainImage}
+          />
+        </Helmet>
+      }
       title={post.frontmatter.title}
       subtitle={post.frontmatter.subtitle}
       callout={post.frontmatter.callout}
