@@ -22,8 +22,11 @@ const FeatureGrid = ({ gridItems }) => (
               <StatusOverlay>{item.status}</StatusOverlay>
             </ImageWrapper>
           ) : (
-            <ImageWrapper hover={item.link}>
-              <Image src={item.image} />
+            <ImageWrapper hover={true}>
+              <a href={item.link}>
+                <Image src={item.image} />
+                <StatusOverlay>{item.status}</StatusOverlay>
+              </a>
             </ImageWrapper>
           )}
           <Paragraph>

@@ -181,14 +181,17 @@ export const pageQuery = graphql`
 
 const SlideImage = styled.div`
   background-image: url("${props => props.src}");
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
   height: 100%;
   background-position: 50% 50%;
 `
 
 const SlideWrapper = styled.div`
-  width: 100%;
-  height: 500px;
+  height: 100vh;
+  @media only screen and (max-width: 600px) {
+    height: calc(100vh - 200px);
+  }
 `
 
 const ImageThumbnail = styled.div`
