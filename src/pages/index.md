@@ -66,6 +66,10 @@ about: >-
   it truly won't fit your needs, I will find someone who will love your home.”
 featured:
   blurbs:
+    - image: /img/126_dudley_st_apt_415-jersey_city_1552515884_0.jpg
+      link: 'https://yoshieabe.netlify.com/listing/126-dudley-st/'
+      status: SELLING
+      text: Active listing
     - image: /img/img_4415.jpg
       status: UNDER CONTRACT
       text: |-
@@ -176,12 +180,6 @@ featured:
         ## **$335,000 (SOLD)**
 
         Buyer's Agent.
-    - image: /img/126_dudley_st_apt_415-jersey_city_1552515884_0.jpg
-      link: 'https://yoshieabe.netlify.com/listing/126-dudley-st/'
-      status: SELLING
-      text: Active listing
-    - {}
-    - {}
 testimonials:
   heading: What People Say About Me
   description: >-
