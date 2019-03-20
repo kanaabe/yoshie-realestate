@@ -53,7 +53,7 @@ additionalImages:
   - image: /img/_dsc2247.jpeg
   - image: /img/_dsc2270.jpeg
   - image: /img/_dsc2218.jpeg
-  - image: /img/_dsc2226.jpeg
+  - image: ''
   - image: /img/_dsc2251.jpeg
 ---
 
