@@ -176,6 +176,10 @@ featured:
         ## **$335,000 (SOLD)**
 
         Buyer's Agent.
+    - image: /img/126_dudley_st_apt_415-jersey_city_1552515884_0.jpg
+      text: Active listing
+    - {}
+    - {}
 testimonials:
   heading: What People Say About Me
   description: >-
