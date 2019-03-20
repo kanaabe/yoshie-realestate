@@ -16,7 +16,7 @@ const FeatureGrid = ({ gridItems }) => (
 
       return (
         <div key={item.image} className="column is-6">
-          {item.status !== "Selling" ? (
+          {item.status !== "SELLING" ? (
             <ImageWrapper hover={false}>
               <Image src={item.image} />
               <StatusOverlay>{item.status}</StatusOverlay>
