@@ -70,11 +70,11 @@ featured:
       link: 'https://yoshieabe.netlify.com/listing/126-dudley-st/'
       status: SELLING
       text: |-
-        ## **126 Dudley St Apt 415 Jersey City, NJ**
+        ## 126 Dudley St Apt 415 Jersey City, NJ
 
-        ## **2br, 2baths plus Windowed Den**
+        ## 2br, 2baths plus Windowed Den
 
-        ## **$1,150,000  **
+        ## $1,150,000
     - image: /img/img_4415.jpg
       status: UNDER CONTRACT
       text: |-
@@ -86,7 +86,7 @@ featured:
     - image: /img/messages-image-3308491552-.jpeg
       status: SOLD
       text: |-
-        ## **Condo, Union City**
+        ## Condo, Union City
 
         Buyer's Agent
     - image: /img/_dsc6902.jpg
@@ -191,5 +191,10 @@ testimonials:
         service providers to complete their jobs in time.  We could depend on
         her on any aspects of tasks from inception to compl. I recommend Yoshie
         to all people in needs of “personal” real estate services.
+    - author: Rented in Montclair
+      quote: >-
+        Very professional and personable. Would definitely recommend and work
+        with her in the future! She always showed me apartments that were well
+        maintained that I couldn’t find on my own.
 ---
 
