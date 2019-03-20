@@ -42,6 +42,7 @@ additionalImages:
   - image: /img/_dsc2135.jpeg
   - image: /img/_dsc2137.jpeg
   - image: /img/_dsc2147.jpeg
+  - image: /img/_dsc2084.jpeg
   - image: /img/_dsc2158.jpeg
   - image: /img/_dsc2154.jpeg
   - image: /img/_dsc2160.jpeg
@@ -53,7 +54,6 @@ additionalImages:
   - image: /img/_dsc2247.jpeg
   - image: /img/_dsc2270.jpeg
   - image: /img/_dsc2218.jpeg
-  - image: ''
   - image: /img/_dsc2251.jpeg
 ---
 
