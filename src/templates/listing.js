@@ -77,7 +77,7 @@ export class ListingTemplate extends React.Component {
               <div className="columns is-multiline">
                 {additionalImages.map((image, i) => {
                   return (
-                    <div className="column is-half">
+                    <div className="column is-one-third">
                       <ImageThumbnail
                         key={image.image}
                         src={image.image}
@@ -133,10 +133,7 @@ const Listing = ({ data }) => {
             property="og:title"
             content={`${post.frontmatter.title} | Listing`}
           />
-          <meta
-            property="og:image"
-            content={post.frontmatter.mainImage}
-          />
+          <meta property="og:image" content={post.frontmatter.mainImage} />
         </Helmet>
       }
       title={post.frontmatter.title}
@@ -195,7 +192,7 @@ const SlideWrapper = styled.div`
 `
 
 const ImageThumbnail = styled.div`
-  height: 200px;
+  height: 100px;
   background-image: url("${props => props.src}");
   background-size: cover;
   background-position: 50% 50%;
