@@ -75,7 +75,7 @@ featured:
 
         Buyer's Agent
     - image: /img/messages-image-3308491552-.jpeg
-      status: UNDER CONTRACT
+      status: SOLD
       text: |-
         ## **Condo, Union City**
 
