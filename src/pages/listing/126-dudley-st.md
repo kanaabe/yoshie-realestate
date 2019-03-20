@@ -37,9 +37,23 @@ description: >-
   stroll away. Blocks away from PS16, Waterfront Montessori, St Peter's Prep and
   River School.
 additionalImages:
-  - image: /img/126_dudley_st_apt_415-jersey_city_1552515884_0.jpg
-  - image: /img/_dsc6902.jpg
-  - image: /img/dan-gold-220226-unsplash.jpeg
-  - image: /img/chemex.jpg
+  - image: /img/_dsc2101.jpeg
+  - image: /img/_dsc2115.jpeg
+  - image: /img/_dsc2135.jpeg
+  - image: /img/_dsc2137.jpeg
+  - image: /img/_dsc2147.jpeg
+  - image: /img/_dsc2158.jpeg
+  - image: /img/_dsc2154.jpeg
+  - image: /img/_dsc2160.jpeg
+  - image: /img/_dsc2182.jpeg
+  - image: /img/_dsc2189.jpeg
+  - image: /img/_dsc2196.jpeg
+  - image: /img/_dsc2226.jpeg
+  - image: /img/_dsc2247.jpeg
+  - image: /img/_dsc2270.jpeg
+  - image: /img/_dsc2218.jpeg
+  - image: /img/_dsc2226.jpeg
+  - image: /img/_dsc2251.jpeg
+  - {}
 ---
 
