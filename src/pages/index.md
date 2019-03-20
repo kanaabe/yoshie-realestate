@@ -177,6 +177,8 @@ featured:
 
         Buyer's Agent.
     - image: /img/126_dudley_st_apt_415-jersey_city_1552515884_0.jpg
+      link: 'https://yoshieabe.netlify.com/listing/126-dudley-st/'
+      status: SELLING
       text: Active listing
     - {}
     - {}
