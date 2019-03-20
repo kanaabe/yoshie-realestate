@@ -74,7 +74,7 @@ featured:
 
         ## **2br, 2baths plus Windowed Den**
 
-        ## **$1,150,000  (For Sale)**
+        ## **$1,150,000  **
     - image: /img/img_4415.jpg
       status: UNDER CONTRACT
       text: |-
@@ -93,13 +93,13 @@ featured:
       link: ''
       status: SOLD
       text: >-
-        ## **196 Garside Ave Wayne, NJ**
+        ## 196 Garside Ave Wayne, NJ
 
 
-        ## **4br 3 baths**
+        ## 4br 3 baths
 
 
-        ## **$440,000 (SOLD)**
+        ## $440,000 (SOLD)
 
 
         Listing Agent. \*\* \*\*Unique bi-level home in the Valley section of
@@ -107,13 +107,13 @@ featured:
     - image: /img/img_3080.jpg
       status: LEASED
       text: >-
-        ## **Montclair, NJ**
+        ## Montclair, NJ
 
 
-        ## **2br, 1bath, brand new kitchen**
+        ## 2br, 1bath, brand new kitchen
 
 
-        ## **$2,300**
+        ## $2,300
 
 
         Leased for a young professional couple from NY within a week from day of
@@ -121,23 +121,23 @@ featured:
     - image: /img/img_2524.jpg
       status: LEASED
       text: |-
-        ## **Upper Montclair**
+        ## Upper Montclair
 
-        ## **2br, 1bath and front porch**
+        ## 2br, 1bath and front porch
 
-        ## **$2,250**
+        ## $2,250
 
         Listing agent.  Leased in 2 weeks.
     - image: /img/img_3486.png
       status: SOLD
       text: >-
-        ## **Retail**
+        ## Retail
 
 
-        ## **509 Pompton Ave Cedar Grove, NJ **
+        ## 509 Pompton Ave Cedar Grove, NJ 
 
 
-        ## **$500's (SOLD)**
+        ## $500's (SOLD)
 
 
         Buyer's Agent.  Freestanding 2,300 sf Retail store 1,100
@@ -146,23 +146,21 @@ featured:
     - image: /img/isijqc0j40o0za0000000000.jpg
       status: SOLD
       text: |-
-        ## **330 E Lincoln Ave Roselle Park, NJ**
+        ## 330 E Lincoln Ave Roselle Park, NJ
 
-        ## **3br, 1bath and sun porch**
+        ## 3br, 1bath and sun porch
 
-        ## **$278,000 (SOLD)**
-
-
+        ## $278,000 (SOLD)
 
         Buyer's agent
     - image: /img/isq1quyb3am5fs0000000000.jpg
       status: SOLD
       text: |-
-        ## **500 Central Ave Union City**
+        ## 500 Central Ave Union City
 
-        ## **2br 1 bath, NYC view from balcony**
+        ## 2br 1 bath, NYC view from balcony
 
-        ## **$335,000 (SOLD)**
+        ## $335,000 (SOLD)
 
         Buyer's Agent.
 testimonials:
