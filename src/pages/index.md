@@ -69,7 +69,12 @@ featured:
     - image: /img/126_dudley_st_apt_415-jersey_city_1552515884_0.jpg
       link: 'https://yoshieabe.netlify.com/listing/126-dudley-st/'
       status: SELLING
-      text: Active listing
+      text: |-
+        ## **126 Dudley St Apt 415 Jersey City, NJ**
+
+        ## **2br, 2baths plus Windowed Den**
+
+        ## **$1,150,000  (For Sale)**
     - image: /img/img_4415.jpg
       status: UNDER CONTRACT
       text: |-
