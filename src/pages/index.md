@@ -97,28 +97,8 @@ featured:
         ## **$440,000 (SOLD)**
 
 
-        Listing Agent. ** **Unique bi-level home in the Valley section of Wayne,
-        offering 4 bedrooms
-
-        and 3 full baths. Extra wide entry with marble floors and two coat
-
-        closets. First floor offers master suite with walk in closet and full
-
-        bath, two additional bedrooms and one more full bath. Large living room,
-
-        spacious dining room with wood beam ceilings and beautiful kitchen with
-
-        center island and laundry. Massive deck off of kitchen for endless
-
-        outdoor entering. Ground floor offers a good size bedroom, full bath,
-
-        massive family room with wet bar, wood burning fireplace and large
-
-        storage area in utility room. Sliding doors to large patio and entry to
-
-        the two car garage. Beautiful, private, fenced in backyard with multiple
-
-        layers for unique look. Close to everything.
+        Listing Agent. \*\* \*\*Unique bi-level home in the Valley section of
+        Wayne
     - image: /img/img_3080.jpg
       status: LEASED
       text: >-
