@@ -5,7 +5,7 @@ subtitle: 'Jersey City, NJ 07302'
 callout: |-
   Open House
   Sunday March 17, 2019
-  1:00PM - 3:00PM
+  1 - 3 PM
 mainImage: /img/126_dudley_st_apt_415-jersey_city_1552515884_0.jpg
 price: '$1,150,000'
 specifications:
