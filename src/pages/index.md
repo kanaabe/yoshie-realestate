@@ -166,49 +166,49 @@ featured:
     - image: /img/a8f65b525b7aab661b87c4bdca779dce-cc_ft_576.webp
       status: SOLD
       text: |-
-        3 bd2 ba 1,682 sqft
+        ## 3 bd2 ba 1,682 sqft
 
-        150 Nesbit St, Weehawken, NJ 07086
+        ## 150 Nesbit St, Weehawken, NJ 07086
 
-        Sold: $675,000
+        ## Sold: $675,000
 
         Buyer's Agent
     - image: /img/bed47da91214e101b021525e8e49378c-cc_ft_576.webp
       status: SOLD
       text: |-
-        13 McAllister Pl, Irvington, NJ 07111
+        ## 13 McAllister Pl, Irvington, NJ 07111
 
-        Sold: $234,000
+        ## Sold: $234,000
 
         Buyer's Agent
     - image: /img/d2370765947788e957a6b32c304db77f-cc_ft_576.webp
       status: SOLD
       text: |-
-        3 bd2 ba
+        ## 3 bd2 ba
 
-        45 Weston St, Nutley, NJ 07110
+        ## 45 Weston St, Nutley, NJ 07110
 
-        Sold: $471,000
+        ## Sold: $471,000
 
         Buyer's Agent
     - image: /img/f4869b0dc8598505338e950600c53efa-cc_ft_576.webp
       status: SOLD
       text: |-
-        4 bd3 ba
+        ## 4 bd3 ba
 
-        72 Lowell Ave, West Orange, NJ 07052
+        ## 72 Lowell Ave, West Orange, NJ 07052
 
-        Sold: $500,000
+        ## Sold: $500,000
 
         Buyer's Agent
     - image: /img/c1e09549474fd75c9ec0c728e1d4ba70-cc_ft_576.webp
       status: SOLD
       text: |-
-        1 bd1 ba-- sqft
+        ## 1 bd1 ba-- sqft
 
-        60 Parkway Dr E APT 12D, East Orange, NJ 07017
+        ## 60 Parkway Dr E APT 12D, East Orange, NJ 07017
 
-        Sold: $150,000
+        ## Sold: $150,000
 
         Seller's Agent
 testimonials:
