@@ -191,6 +191,14 @@ featured:
         Buyer's Agent.  Freestanding 2,300 sf Retail store 1,100
         Warehouse/Garages, 2,300 sf Storage in basement.  .1552 Acres, Lot 40 x
         169.
+    - image: /img/img_4775.jpeg
+      status: SOLD
+      text: |-
+        239 Oak St, Ridgewood, NJ 07450
+
+        Sold: $515,000
+
+        Seller's agent
     - image: /img/isijqc0j40o0za0000000000.jpg
       status: SOLD
       text: |-
