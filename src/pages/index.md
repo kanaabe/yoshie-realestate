@@ -66,6 +66,21 @@ about: >-
   it truly won't fit your needs, I will find someone who will love your home.”
 featured:
   blurbs:
+    - image: >-
+        /img/eb169088a623e8f5349f0cdf434274a9-uncropped_scaled_within_1536_1152.webp
+      link: ''
+      status: UNDER CONTRACT
+      text: |-
+        210 Nunda Ave, Jersey City
+
+        6 bd 4 ba
+    - image: >-
+        /img/d0ae25408602eb0a682d9defc7e8917e-uncropped_scaled_within_1536_1152.webp
+      status: UNDER CONTRACT
+      text: |-
+        3121 Central Ave #4C, Union City
+
+        2bd 2ba
     - image: /img/d2370765947788e957a6b32c304db77f-cc_ft_576.webp
       status: SOLD
       text: |-
