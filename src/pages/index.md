@@ -71,16 +71,20 @@ featured:
       link: ''
       status: UNDER CONTRACT
       text: |-
-        210 Nunda Ave, Jersey City
+        ## 210 Nunda Ave, Jersey City
 
-        6 bd 4 ba
+        ## 6 bd 4 ba
+
+        Buyer's Agent
     - image: >-
         /img/d0ae25408602eb0a682d9defc7e8917e-uncropped_scaled_within_1536_1152.webp
       status: UNDER CONTRACT
       text: |-
-        3121 Central Ave #4C, Union City
+        ## 3121 Central Ave #4C, Union City
 
-        2bd 2ba
+        ## 2bd 2ba
+
+        Buyer's Agent
     - image: /img/d2370765947788e957a6b32c304db77f-cc_ft_576.webp
       status: SOLD
       text: |-
